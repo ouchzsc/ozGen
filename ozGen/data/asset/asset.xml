@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<module>
+    <config name="asset" index="guid" enum="eName">
+        <var name="guid" type="int"/>
+        <var name="path" type="string"/>
+        <var name="eName" type="string"/>
+        <var name="bundleName" type="string"/>
+        <var name="assetName" type="string"/>
+    </config>
+</module>
