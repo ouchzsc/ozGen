@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<module>
+    <config name="icon" index="id">
+        <var name="id" type="string"/>
+        <var name="eName" type="string"/>
+        <var name="desc" type="string"/>
+        <var name="iconAsset" type="int" ref="asset.asset"/>
+    </config>
+    <config name="zooIcons" index="id">
+        <var name="id" type="int"/>
+        <var name="iconList" type="list,string" listRef="icon.icon"/>
+        <var name="assetList" type="list,int" listRef="asset.asset"/>
+    </config>
+</module>
