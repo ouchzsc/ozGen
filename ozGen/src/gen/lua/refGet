@@ -1,4 +1,0 @@
-local function <module>_<config>_get(id)
-    local <config> = require("cfgGen.<module>.<config>")
-    return <config>.get(id)
-end
